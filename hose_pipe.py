@@ -18,13 +18,13 @@ while True:
     if (GPIO.input(RED_BUTTON) == False):
         print("RED Button Pressed")
         GPIO.output(37, GPIO.LOW)
-        sleep(300)
+        sleep(10)
         GPIO.output(37, GPIO.HIGH)
 
 
     if (GPIO.input(BLUE_BUTTON) == False):
         print("BLUE Button pressed")
         GPIO.output(35, GPIO.LOW)
-        sleep(300)
+        sleep(10)
         GPIO.output(35, GPIO.HIGH)
 

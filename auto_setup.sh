@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cat > /etc/network/interfaces << EOF
 
 # interfaces(5) file used by ifup(8) and ifdown(8)
@@ -29,7 +31,6 @@ network={
 }
 EOF
 
-cd ~/
 sudo systemctl enable ssh
 sudo systemctl start ssh
 yes Y | sudo apt-get update
@@ -80,7 +81,10 @@ WantedBy=multi-user.target
 EOF
 
 sudo mkdir /var/homebridge
-sudo cp ./config.json /var/homebridge/
+sudo cp ./config.json sudo cp ./config.json /home/pi/.homebridge/
 sudo systemctl daemon-reload
 sudo systemctl enable homebridge
 sudo systemctl start homebridge
+chmod +x ~/aqua_auto/all_on_15mins.py
+
+
