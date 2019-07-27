@@ -40,6 +40,7 @@ echo "service file complete"
 
 
 #############create homebridge config file ###################
+sudo mkdir /var/homebridge/
 cat > /var/homebridge/config.json << EOF
 {
  "bridge": {
