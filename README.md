@@ -2,4 +2,5 @@
 2. sudo wifi.sh
 3. mkdir aqua_auto
 4. git pull https://github.com/AdamLowery/aqua_auto.git
-5. ./auto_setup.sh not result_stdout
+5. sudo ./install_software.sh
+6. sudo ./create_service.sh 
