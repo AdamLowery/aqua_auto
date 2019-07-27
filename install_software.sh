@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo systemctl enable ssh
-sudo systemctl start ssh
 yes Y | sudo apt-get update
 yes Y | sudo apt-get upgrade
 yes Y | curl -sSL goo.gl/Ksdhph | bash

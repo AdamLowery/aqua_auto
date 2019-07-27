@@ -30,3 +30,7 @@ network={
         psk="LilyJames"
 }
 EOF
+
+sudo systemctl enable ssh
+sudo systemctl start ssh
+
