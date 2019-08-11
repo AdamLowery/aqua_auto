@@ -15,7 +15,7 @@ iface wlan0 inet manual
 wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
 
 iface default inet static
-address 192.168.1.199
+address 192.168.1.119
 netmask 255.255.255.0
 gateway 192.168.1.1
 
