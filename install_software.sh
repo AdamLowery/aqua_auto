@@ -14,4 +14,5 @@ make
 sudo make install
 sudo su pi
 sudo adduser $USER gpio
-
+sudo apt install ffmpeg
+npm install -g homebridge-camera-rpi

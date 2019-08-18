@@ -62,7 +62,13 @@ cat > /home/pi/.homebridge/config.json << EOF
                 "pin" : 3,
                 "duration" : 600000
         }
-                ]
+                ],
+ "platforms": [
+       {
+      "platform": "rpi-camera",
+      "cameras": [{"name": "Pi Camera"}]
+    }
+  ]
 }
 EOF
 ############################################################
