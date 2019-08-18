@@ -53,13 +53,13 @@ cat > /home/pi/.homebridge/config.json << EOF
         {
                 "accessory": "relay",
                 "name": "Hose Pipe",
-                "pin" : 37,
+                "pin" : 7,
                 "duration" : 600000
         },
         {
                 "accessory": "relay",
                 "name": "Sprinklers",
-                "pin" : 35,
+                "pin" : 3,
                 "duration" : 600000
         }
                 ]
